@@ -12,4 +12,5 @@ RUN set -ex; \
     gnupg2 \
     pbuilder \
     rsync \
-    sudo
+    sudo \
+    tidy
