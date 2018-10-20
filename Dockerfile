@@ -19,7 +19,7 @@ RUN set -ex; \
     sudo \
     tidy \
     ccache; \
-  apt-get build-dep bash; \
-  apt-get build-dep slurm-llnl; \
+  apt-get -qy build-dep bash; \
+  apt-get -qy build-dep slurm-llnl; \
   apt-get clean; \
   rm -rf /var/lib/apt/lists/*
